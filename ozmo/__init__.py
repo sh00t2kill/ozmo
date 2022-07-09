@@ -2,7 +2,7 @@ import hashlib
 import logging
 import time
 from base64 import b64decode, b64encode
-from collections import OrderedDict
+from collections.abc import OrderedDict
 from threading import Event
 import threading
 import sched
