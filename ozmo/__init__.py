@@ -12,9 +12,9 @@ import requests
 import stringcase
 import os
 import re
-from sleekxmppfs import ClientXMPP, Callback, MatchXPath
-from sleekxmppfs.xmlstream import ET
-from sleekxmppfs.exceptions import XMPPError
+from slixmpp import ClientXMPP, Callback, MatchXPath
+from slixmpp.xmlstream import ET
+from slixmpp.exceptions import XMPPError
 
 from paho.mqtt.client import Client  as ClientMQTT
 from paho.mqtt import publish as MQTTPublish
